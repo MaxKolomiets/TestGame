@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private int hpRecovery;
-    //я вирішив, що на даному етапі недоцільно наслідувати від классу "ворог" класси "маленький ворог" та "великий ворог" - тому зробив усе простіше і додав булеву перемінну isBig
+    //я вирішив, що на даному етапі недоцільно наслідувати від класу "ворог" класи "маленький ворог" та "великий ворог" - тому зробив усе простіше і додав булеву перемінну isBig
     [SerializeField] private bool isBig;
     public bool IsBig => isBig;
 
